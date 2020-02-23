@@ -1,34 +1,3 @@
-# 高仿微信图片选择器
-
-#### 注意开发细节，尽可能的做到加载速度最快，目前支持图片，视频单选，多选，多文件夹切换，大图预览，自定义图片加载器等功能。
-
-#### 效果图：
- ![](https://github.com/Lichenwei-Dev/ImagePicker/blob/master/screenshot/Screenshot1.png)
- ![](https://github.com/Lichenwei-Dev/ImagePicker/blob/master/screenshot/Screenshot2.png)
- ![](https://github.com/Lichenwei-Dev/ImagePicker/blob/master/screenshot/Screenshot3.png)
- ![](https://github.com/Lichenwei-Dev/ImagePicker/blob/master/screenshot/Screenshot4.png)
- 
- 
- 
-版本更新历史：
-### Version1.0.0：
-1、可预览各文件夹下的图片  
-2、可配置是否支持相机拍照  
-3、可配置选择图片模式（单选/多选）  
-4、可配置选择图片数量  
-5、可配置图片加载框架
-
-### Version1.1.0：
-1、新增大图预览功能（初步实现，考虑性能后期会改为Fragment承载，单一Activity架构）  
-2、更改选择图片文件夹弹窗高度  
-3、更改ImageLoader接口，开放小图加载、大图加载、清除缓存方法   
-
-### Version2.0.0：
-1、重构了大量的代码，更加注重代码间的解耦，相比1.0.+版本简化了配置项，让开发者可以更专注于业务。  
-2、添加媒体库扫描对GIF、视频的支持，并开放接口让开发者自行实现视频播放逻辑。  
-3、添加媒体库加载策略，开发者可自行配置加载图片或者视频，灵活运用于不同业务实现。  
-4、完善大图预览功能，完善部分UI界面的显示。
-
 
 # 使用方式:
 
@@ -68,8 +37,6 @@
                     }
                 }
 ```
-
-版本会持续迭代，欢迎大家给建议。。。（欢迎Star，欢迎Fork）
 
  
 
